@@ -1,0 +1,163 @@
+body {
+    background-color: #f4f5f7;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.card {
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    border: none; 
+    overflow: hidden;
+    padding: 20px;
+}
+
+.card-body {
+    padding: 25px;
+}
+
+h5 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.text-muted {
+    font-size: 0.9rem;
+    color: #666;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    background-color: #fafafa;
+    transition: all 0.2s ease;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #007bff;
+    background-color: #fff;
+}
+
+.btn {
+    display: inline-block;
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-success {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+.btn-light {
+    background-color: #f8f9fa;
+    color: #6c757d;
+    border: 1px solid #ddd;
+}
+
+.btn-light:hover {
+    background-color: #e9ecef;
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.divider {
+    text-align: center;
+    position: relative;
+    margin: 20px 0;
+}
+
+.divider::before,
+.divider::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 40%;
+    height: 1px;
+    background: #ddd;
+}
+
+.divider::before {
+    left: 0;
+}
+
+.divider::after {
+    right: 0;
+}
+
+.divider span {
+    font-size: 0.9rem;
+    color: #666;
+    background: #fff;
+    padding: 0 10px;
+}
+
+.text-primary {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.text-primary:hover {
+    color: #0056b3;
+}
+
+.form-check {
+    margin-bottom: 20px;
+}
+
+.form-check-label {
+    font-size: 0.9rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mb-4 {
+    margin-bottom: 20px;
+}
+
+/* Adjust spacing for forgot password link and register section */
+.text-center.mt-3 {
+    margin-top: 20px;
+}
+
+.text-center.mt-4 {
+    margin-top: 30px;
+}
